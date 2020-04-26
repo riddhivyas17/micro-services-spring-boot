@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+zuul:
+  prefix: /api
+  routes:    pricing-service:
+      path: /PricingService/**
+      service-id: PricingService
+    product-catalog-service:
+      path: /ProductCatalogService/**
+      service-id: ProductCatalogService
+   
