@@ -8,7 +8,7 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.microservice</groupId>
+	<groupId>com.example</groupId>
 	<artifactId>EurekaServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>EurekaServer</name>
