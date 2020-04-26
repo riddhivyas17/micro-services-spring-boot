@@ -1,0 +1,10 @@
+server:
+  port: 8761   # Indicate the default PORT where this service will be started
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false  #telling the server not to register himself in the service registry
+
+
+ 
