@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: HystrixDashBoard
+server:
+  port: 8004
