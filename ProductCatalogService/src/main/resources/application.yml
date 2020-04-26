@@ -1,0 +1,17 @@
+server:
+  port: 8763    #default port where the service will be started
+
+eureka:         #tells about the Eureka server details and its refresh time
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enabled: true    enabled: true
+spring:
+  application:
+    name: ProductCatalogService    h2:    console:      enabled: true
+      path: /h2-console
+            datasource:    url: jdbc:h2:mem:product      platform: h2    driver-class-name: org.h2.Driver 
