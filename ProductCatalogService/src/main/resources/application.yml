@@ -1,15 +1,15 @@
-server:
-  port: 8763    #default port where the service will be started
+#server:
+ # port: 8763    #default port where the service will be started
 
-eureka:         #tells about the Eureka server details and its refresh time
-  instance:
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-    healthcheck:
-      enabled: true    enabled: true
+#eureka:         #tells about the Eureka server details and its refresh time
+ # instance:
+  #  leaseRenewalIntervalInSeconds: 1
+   # leaseExpirationDurationInSeconds: 2
+  #client:
+   # serviceUrl:
+    #  defaultZone: http://localhost:8761/eureka/
+    #healthcheck:
+    #  enabled: true    #enabled: true
 spring:
   application:
     name: ProductCatalogService    h2:    console:      enabled: true
